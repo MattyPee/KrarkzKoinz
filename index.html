@@ -1,0 +1,448 @@
+<html>
+<head>
+<title>Krarkz Koinz</title>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<style>
+@font-face {
+	font-family: 'acki_preschoolregular';
+	src:	url('ackipreschool-jw5b-webfont.woff2') format('woff2'),
+		url('ackipreschool-jw5b-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body{
+	font-family: 'acki_preschoolregular';
+}
+h1{
+	font-weight: normal;
+}
+p{
+	font-size: 8vw;
+	font-weight: bold;
+	text-align: center;
+}
+.bottums{
+	font-size: 6vw;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5%;
+}
+.copieznum{
+	text-align: right;
+}
+.winznum{
+	text-align: right;
+}
+.streaknum{
+	text-align: right;
+}
+.lozeznum{
+	text-align: right;
+}
+.q{
+	font-weight: normal;
+}
+.TRhead{
+	max-height: 100px;
+}
+.HeadL{
+	transform: rotate(-20deg);
+	text-align: right;
+	font-size: 9vw;
+	overflow: visible;
+	white-space: nowrap;
+	margin-top: 10px;
+	margin-bottom: -45%;
+}
+.HeadR{
+	transform: rotate(20deg);
+	text-align: left;
+	font-size: 9vw;
+	overflow: visible;
+	white-space: nowrap;
+	margin-top: 10px;
+	margin-bottom: -45%;
+}
+.divFullScreen{
+	max-width: 1180pxoff;
+	width: 100%;
+	margin: none;
+	background-color: #C82824;
+}
+table{
+	table-layout: fixed;
+	width: 100%;
+}
+td{
+	table-layout: fixed;
+	border-collapse: collapse;
+	white-space: nowrap;
+}
+.krarkface{
+	text-align: center;
+	margin-bottom: -2%;
+}
+.krarkthumb{
+	text-align: center;
+}
+.krarkface {
+    -webkit-animation:spin 2.6s linear infinite;
+}
+.jleft{
+	text-align: left;
+	padding-top: 5%;
+}
+.jright{
+	text-align: right;
+	padding-top: 5%;
+}
+.minus{
+	text-align: right;
+	padding-top: 5%;
+}
+.plus{
+	text-align: left;
+	padding-top: 5%;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    25% {
+        -webkit-transform: rotate(10deg);
+    }
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    75% {
+        -webkit-transform: rotate(-10deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+    }    
+}
+.buttonbox{
+	text-align: center;
+	padding-top: 5%;
+}
+.counteredbox{
+	padding-top: 5%;
+}
+.button{
+  background-color: #8b8442;
+  border-radius: 20%;
+  color: black;
+  border: none;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'acki_preschoolregular';
+  font-size: 10vw;
+  font-weight: bold;
+}
+.button:hover{
+  background-color: 685025;
+  color: f1cfbf;
+}
+.button:active{
+  background-color: 685025;
+  transform: translateY(2%);
+}
+</style>
+</head>
+<body>
+<div class="divFullScreen">
+<table>
+	<tbody>
+		<tr class="TRhead">
+			<td colspan="3">
+				<div><div class="HeadL"><h1>Krarkz</h1></div></div>
+			</td>
+			<td colspan="3"in">
+				<div><div class="HeadR"><h1>&nbspKoinz</h1></div></div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="6">
+				<div class="krarkface">
+					<img src="KrarkzFace.png" width=70% class="wink">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3"><p>Haz thumb<font class="q">?</font></p></td>
+			<td colspan="3">
+				<div class="krarkthumb">
+					<img src="KrarkzThumbNo.png" width=40% class="hasThumb">
+				</div>
+			</td>
+		</tr>
+<tr>
+<td class="counteredbox"><p class="minus">-</p></td>
+<td colspan="4" class="counteredbox"><p class="krarkznum">0 Krarkz</p></td>
+<td class="counteredbox"><p class="plus">+</p></td>
+</tr>
+<tr>
+<td colspan="3" class="counteredbox"><p>Countered<font class="q">?</font></p></td>
+<td colspan="3" class="counteredbox"><p id="countered">no</p></td>
+</tr>
+<tr>
+<td colspan="3" class="counteredbox"><p>Need in hand<font class="q">?</font></p></td>
+<td colspan="3" class="counteredbox"><p id="hand">yes</p></td>
+</tr>
+<tr>
+<td colspan="3" class="counteredbox"><p>Need to cast<font class="q">?</font></p></td>
+<td colspan="3" class="counteredbox"><p id="cast">no</p></td>
+</tr>
+<tr>
+<td colspan="6" class="buttonbox"><button class="button">Flip Coin</buton></td>
+</tr>
+<tr>
+<td colspan="3" class="counteredbox"><p class="copieznum">0</p></td>
+<td colspan="3" class="counteredbox"><p class="jleft">&nbspcastz</p></td>
+</tr>
+<tr>
+<td colspan="2"><p class="jright">don't</p></td>
+<td colspan="4"><p class="jleft">&nbspreturn 2 hand</p></td>
+</tr>
+<tr>
+<td class="counteredbox"><p class="winznum">0</p></td>
+<td class="counteredbox"><p class="bottums">winz</p></td>
+<td class="counteredbox"><p class="streaknum">0</p></td>
+<td class="counteredbox"><p class="bottums">streak</p></td>
+<td class="counteredbox"><p class="lozeznum">0</p></td>
+<td class="counteredbox"><p class="bottums">lozez</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    var hasThumb = false;
+$( document ).ready(function() {
+    var dimg = "KrarkzThumbNo.png";
+    $('.hasThumb').click(function(){
+        if(hasThumb){
+             $(this).attr('src','KrarkzThumbNo.png');
+             hasThumb = false;
+        }else{
+             $(this).attr('src','KrarkzThumbYes.png');
+             hasThumb = true;
+        }
+    })
+});
+</script>
+<script>
+    var wink = false;
+$( document ).ready(function() {
+    var dimg2 = "KrarkzFace.png";
+
+    $('.wink').click(function(){
+        if(wink){
+             $(this).attr('src','KrarkzFace.png');
+             wink = false;
+        }else{
+             $(this).attr('src','KrarkzFaceWink.png');
+             wink = true;   
+		setTimeout(function () {
+    		$('.wink').attr('src','KrarkzFace.png');
+    		wink = false;
+		}, 300);
+        }
+    })
+});
+</script>
+<script>
+const changeText = document.querySelector("#countered");
+	var countered = false;
+	changeText.addEventListener("click", function() {
+        	if(countered){
+        		changeText.textContent = "no";
+        		countered = false;
+    		}else{
+        		changeText.textContent = "yes";
+        		countered = true;
+        		changeText2.textContent = "no";
+        		hand = false;
+        		changeText3.textContent = "no";
+        		cast = false;
+      		}
+});
+</script>
+<script>
+const changeText2 = document.querySelector("#hand");
+	var hand = true;
+	changeText2.addEventListener("click", function() {
+        	if(hand){
+        		changeText2.textContent = "no";
+        		hand = false;
+        		changeText3.textContent = "yes";
+        		cast = true;
+    		}else{
+        		changeText2.textContent = "yes";
+        		hand = true;
+        		changeText3.textContent = "no";
+        		cast = false;
+        		changeText.textContent = "no";
+        		countered = false;
+      		}
+});
+</script>
+<script>
+const changeText3 = document.querySelector("#cast");
+	var cast = false;
+	changeText3.addEventListener("click", function() {
+        	if(cast){
+        		changeText3.textContent = "no";
+        		cast = false;
+        		changeText2.textContent = "yes";
+        		hand = true;
+    		}else{
+        		changeText3.textContent = "yes";
+        		cast = true;
+        		changeText2.textContent = "no";
+        		hand = false;
+      		}
+});
+</script>
+<script>
+const krarkznum = document.querySelector(".krarkznum");
+const minus = document.querySelector(".minus");
+const plus = document.querySelector(".plus");
+	var numberofKrarks = 0;
+	minus.addEventListener("click", function() {
+        	if(numberofKrarks <= 0){
+        		return;
+    		}else{
+        		numberofKrarks--;
+			krarkznum.textContent = numberofKrarks + " Krarkz";
+      		}
+});
+	plus.addEventListener("click", function() {
+        		numberofKrarks++;
+			krarkznum.textContent = numberofKrarks + " Krarkz";
+});
+</script>
+<script>
+	const flip = document.querySelector(".button");
+	const castz = document.querySelector(".copieznum");
+	const returnz = document.querySelector(".jright");
+	flip.addEventListener("click", function() {
+		let myNumberOfKrarks = numberofKrarks; //Get from wherever user set it
+		let myHasThumb = hasThumb;
+		let myNeedCast = cast;
+		let myNeedBackInHand = hand;
+		let myHasBeenCountered = countered;
+
+		let myCopyCount = calculateCopies(myNumberOfKrarks,
+					myHasThumb,
+					myHasBeenCountered,
+					myNeedCast,
+					myNeedBackInHand);
+	
+	//There’s the original copy as well, unless that was countered
+	let myOriginalResolves = !myHasBeenCountered && myCopyCount == myNumberOfKrarks;
+	let myCastCount = myCopyCount + (myOriginalResolves ? 1 : 0); 
+	castz.textContent = myCastCount;
+	
+	//Based on flips should it go back into your hand?
+	let myShouldGoBackInHand = (myNumberOfKrarks - myCopyCount) > 0;
+
+	//If it was countered then you don’t actually get it back
+	let myActuallyGoBackInHand = myShouldGoBackInHand && ! myHasBeenCountered; 
+	if (myActuallyGoBackInHand){
+		returnz.textContent = "and";
+	}
+	else {
+		returnz.textContent = "don't";
+	}
+
+             $('.wink').attr('src','KrarkzFaceWink.png');
+             wink = true;   
+		setTimeout(function () {
+    		$('.wink').attr('src','KrarkzFace.png');
+    		wink = false;
+		}, 300);
+	});
+
+
+function calculateCopies (aNumberOfKrarks, aHasThumb, aHasBeenCountered, aNeedCast, aNeedBackInHand) {
+	if (aNumberOfKrarks <= 0 ) { //No Krarks - why are we here?
+		return 0;
+	}
+	if (aNeedCast && aNeedBackInHand) { //Make up your damn mind
+		return -1;
+	}
+
+	let myCopyCount = 0;
+	let myInHandCount = 0;
+	for (i = 0; i < aNumberOfKrarks; i++) {
+		if (aHasThumb) {
+			let myFirstFlip = calculateFlip();
+			let mySecondFlip = calculateFlip();
+
+			if (aNeedCast) { //We really want it to be cast at least once, then fall back to other logic
+				//If we not already returning to hand, then prefer false
+				if (myCopyCount <= 0) {
+					if (myFirstFlip || mySecondFlip) { //If either can be cast - choose that
+						myCopyCount++;
+						continue;
+					}
+				}
+			}
+
+			//If it has been countered then we want maximum copies - it won’t actually come back to our hand
+			if (!aHasBeenCountered) {
+				//We really want it back to our hand - only relevant if 1 Krark
+				if (aNeedBackInHand) { 
+					if (myInHandCount <= 0) {
+						if (!myFirstFlip || !mySecondFlip) { //If either can be returned to hand - choose that
+							myInHandCount++;
+							continue;
+						}
+					}
+				}
+
+				//If we have more than one krark, then by default prefer back to hand first, then as many copies as possible
+				if (aNumberOfKrarks > 1 && myInHandCount <= 0) { 
+					if (!myFirstFlip || !mySecondFlip) { //If either can be returned to hand - choose that
+						myInHandCount++;
+						continue;
+					}
+				}
+			}
+
+			//Prefer copying all subsequent times
+			if (myFirstFlip || mySecondFlip) {
+				myCopyCount++;
+			} else {
+				myInHandCount++;
+			}
+
+		} else {
+			let myFlip = calculateFlip();
+
+			if (myFlip) {
+				myCopyCount++;
+			} else {
+				myInHandCount++;
+			}
+		}
+	}
+	return myCopyCount; //You can infer that myInHandCount == aNumberOfKrarks - myCopyCount
+}
+
+
+//True = Copy, False = BackToHand
+function calculateFlip () {
+	return Math.random() < 0.5;
+}
+
+</script>
+</body>
+</html>
